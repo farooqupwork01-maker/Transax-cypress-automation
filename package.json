@@ -1,0 +1,27 @@
+{
+  "name": "transax-cypress-automation",
+  "version": "1.0.0",
+  "description": "Cypress automation test suite for Transax application",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "testing",
+    "transax"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
